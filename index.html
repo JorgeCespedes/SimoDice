@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="juego.css">
+    <title>Simón dice:</title>
+</head>
+
+<body>
+
+    
+    <div class="gameboard">
+        
+        <div style="text-align: center;">
+            <h3>Simón dice:</h3>
+            <p>Juego basado en el curso de Plazi.</p>
+            <p> Desarrollado con JavaScript.</p>
+        </div>
+
+        <div id="cuadro11" class="cuadro cuadro11 left" data-color="cuadro11"></div>
+        <div id="cuadro12" class="cuadro cuadro12 left" data-color="cuadro12"></div>
+        <div id="cuadro13" class="cuadro cuadro13 left" data-color="cuadro13"></div>
+        <div id="cuadro14" class="cuadro cuadro14 left" data-color="cuadro14"></div>
+        <div id="cuadro21" class="cuadro cuadro21 left" data-color="cuadro21"></div>
+        <div id="cuadro22" class="cuadro cuadro22 left" data-color="cuadro22"></div>
+        <div id="cuadro23" class="cuadro cuadro23 left" data-color="cuadro23"></div>
+        <div id="cuadro24" class="cuadro cuadro24 left" data-color="cuadro24"></div>
+        <br>
+
+        <button id="btnEmpezar" type="button" class="btn btn-dark" onclick="empezarJuego()">
+            ¡VAMOS, A JUGAR!
+        </button>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="juego.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+* {
+    margin: auto;
+    padding: 0;
+    font-family: 'Arial';
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+
+.gameboard {
+    width: 800px;
+    height: 400px;
+}
+
+.cuadro {
+    width: 25%;
+    height: 50%;
+    display: inline-block;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: left;
+}
+
+.cuadro11,
+.cuadro12,
+.cuadro13,
+.cuadro14,
+.cuadro21,
+.cuadro22,
+.cuadro23,
+.cuadro24 {
+    background: whitesmoke;
+    border: #5e6f64;
+    border-style: solid;
+    border-radius: 5%;
+}
+
+.cuadro11.light,
+.cuadro12.light,
+.cuadro13.light,
+.cuadro14.light,
+.cuadro21.light,
+.cuadro22.light,
+.cuadro23.light,
+.cuadro24.light {
+    background: #5e6f64;
+}
+
+.hide {
+    display: none;
+}
